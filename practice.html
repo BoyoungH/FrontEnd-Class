@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>여름방학 특강 신청</h1>
+    </header>
+    <form method="get" action="results">
+        <ul>
+            <li>
+                <fieldset>
+                    <legend>수강 신청인</legend>
+                    <label>학번</label>
+                    <input type="text" name="studentid" id="studentid">
+                    <label>이름</label>
+                    <input type="text" name="name" id="name">
+                    <p></p>
+                    <label>학과</label>
+                    <select id="major" name="major">
+                        <option value="a">건축공학과</option>
+                        <option value="a">멀티미디어공학과</option>
+                        <option value="a">정보통신공학과</option>
+                    </select>
+                </fieldset>
+            </li>
+            <li>
+                <fieldset>
+                    <legend>수강 과목을 선택하세요</legend>
+                    <label>선호색상</label>
+                    <input type="color" name="cl" id="cl">
+                    <select id="color" name="color">
+                        <option value="a"></option>
+                    </select>
+                    <p></p>
+                    <label>신청과목(회화)</label>
+                    <label>영어 회화(초급)</label>
+                    <input type="radio" id="m" value="영어 회화(초급)" name="english">
+                    <label>영어 회화(중급)</label>
+                    <input type="radio" id="w" value="영어 회화(중급)" name="english" checked>
+                    <label>영어 회화(고급)</label>
+                    <input type="radio" id="z" value="영어 회화(고급)" name="english">
+                    <p></p>
+                    <label>신청과목(자격)</label>
+                    <input type="radio" id="a" value="toeic" name="c">
+                    <label>TOEIC</label>
+                    <input type="radio" id="b" value="toefl" name="c" >
+                    <label>TOEFL</label>
+                    <input type="radio" id="zd" value="opic" name="c">
+                    <label>OPIC</label>
+                    <p></p>
+                    <label>관심분야</label>
+                    <input type="text" name="txt" id="txt">
+                </fieldset>
+            </li>
+            <li>
+                <fieldset>
+                    <legend>강의 시간을 선택하세요</legend>
+                    <label>개강주</label>
+                    <input type="date" name="date1" id="date1">
+                    <p></p>
+                    <label>강의 시간</label>
+                    <input type="text" name="time1" id="time1">
+                </fieldset>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
