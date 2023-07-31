@@ -1,0 +1,74 @@
+#wrap{
+    margin: 15px;
+    padding: 15px;
+    width: 900px;
+}
+header{
+    background-color: lightblue;
+    border: 3px solid silver;
+    border-radius: 20px;
+    padding: 30px;
+}
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+}
+
+nav{
+    border: 3px solid silver;
+    border-radius: 20px;
+    background-color: pink;
+}
+
+aside{
+    background-color: skyblue;
+    padding: 30px;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+aside li{
+    list-style-type: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+aside li a{
+    color: white;
+}
+aside li:hover{
+    background-color: purple;
+    border-radius: 10px;
+    padding: 20px;
+}
+article{
+    background-color: antiquewhite;
+    border: 3px solid silver;
+    border-radius: 20px;
+    padding: 100px 30px;
+
+}
+
+footer{
+    background-color: aquamarine;
+    border: 3px solid silver;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#aa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section{
+    background-color: white;
+    border: 3px solid silver;
+    border-radius: 20px;
+    padding: 10px;
+}
