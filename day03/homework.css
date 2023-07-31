@@ -1,0 +1,39 @@
+header{
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 10px 30px;
+}
+h1, h2{
+    text-align: left;
+}
+nav li a{
+    color: white;
+    display: inline-block;
+    padding: 20px;
+}
+nav li{
+    display: inline-block;
+}
+#aa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: silver;
+}
+#b{
+    border: 3px solid silver;
+}
+
+#wrap{
+    margin: 0 auto;
+    width: 85%;
+}
+footer{
+    padding: 10px 10px;
+    font-weight: bolder;
+}
+aside li{
+    list-style: none;
+}
