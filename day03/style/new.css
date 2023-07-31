@@ -1,0 +1,52 @@
+#wrap{
+    margin: 0 auto;
+    width: 85%;
+}
+header{
+    border: 1px solid rgb(102,102,102);
+    background-color: rgb(204,255,255);
+}
+nav{
+    background-color: pink;
+}
+#aa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#aa aside{
+    background-color: skyblue;
+}
+#aa aside li{
+    list-style: none;
+
+}
+#aa aside li a{
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+article{
+    background-color: lightyellow;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+aside{
+    width: 25%;
+}
+article{
+    width: 70%;
+}
+footer{
+    background-color: aquamarine;
+    padding: 15px 10px;
+}
