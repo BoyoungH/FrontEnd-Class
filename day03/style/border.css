@@ -1,0 +1,60 @@
+div{
+    width: 500px;
+    height: 500px;
+    border-width: 3px 5px;
+    border-style: dotted;
+    border-color: red;
+    padding: 100px 50px 30px;
+    margin: 20px 100px;
+}
+.menu li{
+    display: inline;
+}
+.menu li a{
+    display: inline-block;
+    border: 1px solid silver;
+    padding: 30px 150px;
+    color: white;
+    background-color: darkblue;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0px 30px;
+    border-radius: 30px/50px;
+}
+#box{
+    width: 100px;
+    height: 100px;
+    border-width: 3px 10px;
+    /*border-bottom: 50px;*/
+    border-style: solid;
+    border-color: aqua;
+}
+/*#b{
+    width: 100px;
+    height: 100px;
+    border-color: blue;
+    border-bottom-width: 10px;
+    border-style: solid;
+    border-bottom-style: double;
+    border-bottom-color: red;
+}*/
+
+/*#b{
+    border: 1px solid blue;
+    border-bottom: 10px double red;
+    border-radius: 20px;
+}*/
+
+.a1 li{
+    display: inline-block;
+}
+.a1 li a{
+    display: inline-block;
+    padding: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+}
