@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap{
+            border: 1px solid silver;
+            margin: 10px 10px;
+        }
+        #all{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 20px;
+        }
+        #all section{
+            margin: 20px;
+        }
+        #a{
+            display: inline-block;
+            border: 1px solid silver;
+        }
+        #a li{
+            display: inline-block;
+        }
+        section{
+            display: inline-block;
+            border: 1px solid silver;
+
+        }
+        #b{
+            display: inline-block;
+            border: 1px solid silver;
+        }
+        #b li{
+            display: inline-block;
+        }
+        #layer3{
+            padding: 20px 10px;
+            margin: 20px;
+            border: 1px solid silver;
+        }
+        footer{
+            border: 1px solid silver;
+            margin: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div id="layer3">3단 레이어</div>
+        <div id="all">
+            <nav id="a">
+                <h2>사이드바1</h2>
+                <ul>
+                    <li>목록1</li>
+                    <li>목록2</li>
+                    <li>목록3</li>
+                </ul>
+            </nav>
+            <section>
+                <h2>내용</h2>
+                <p>내용1</p>
+                <p>내용2</p>
+                <p>내용3</p>
+            </section>
+            <nav id="b">
+                <h2>사이드바2</h2>
+                <ul>
+                    <li>목록1</li>
+                    <li>목록2</li>
+                    <li>목록3</li>
+                </ul>
+            </nav>
+        </div>
+        <footer>Copyright</footer>
+    </div>
+</body>
+</html>

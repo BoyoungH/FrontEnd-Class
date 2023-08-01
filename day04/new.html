@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 400px;
+            height: 200px;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid black;
+            text-align: center;
+        }
+        thead th{
+            border-bottom: 3px double black;
+        }
+        thead{
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <thead>
+            <tr><th scope="col">번호</th><th scope="col">이름</th><th>국어</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>이하나</td>
+                <td>10</td>
+                <td>서울</td>
+            </tr>
+            <tr>
+                <td>김하나</td>
+                <td>9</td>
+                <td>경기</td>
+            </tr>
+            <tr>
+                <td>박하나</td>
+                <td>20</td>
+                <td>강원</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
