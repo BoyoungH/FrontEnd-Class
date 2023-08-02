@@ -125,6 +125,12 @@
         position: relative;
         top: 1vh;
     }
+    section ul li{
+        display: inline;
+    }
+    section li a{
+        display: inline;
+    }
 
 }
 
