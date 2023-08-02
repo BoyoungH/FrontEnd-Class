@@ -9,6 +9,9 @@
     img{
         width: 100%;
     }
+    .spot_top1, .spot_top2, .spot_top3, .spot_top4{
+        border-top: 0.1vw solid blue;
+    }
 
     .spot h2, .spot_top1 h2, .spot_top2 h2, .spot_top3 h2{
         color: silver;
@@ -22,6 +25,24 @@
         margin-top: 1vh;
         font-weight: 700;
         font-size: 3.5vw;
+    }
+    .silverbox{
+        background-color: rgb(228, 227, 227);
+        padding: 0.5vh 2.5vw;
+    }
+    .silverbox dl{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .silverbox dt{
+        display: inline-block;
+        white-space: nowrap;
+        width: 20vw;
+    }
+    .silverbox dd{
+        display: inline-block;
+        width: 50vw;
     }
 }
 @media screen and (min-width:768px){
