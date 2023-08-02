@@ -10,6 +10,9 @@
         display: flex;
         justify-content: space-between;
     }
+    .visible{
+        display: block;
+    }
 
     .logo{
         margin: 1vh 3vw;
@@ -18,7 +21,7 @@
         text-decoration: none;
     }
 
-    nav.menu{
+    nav{
         position:absolute;
         top: 9.4vh;
         left: 67vw;

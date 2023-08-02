@@ -1,0 +1,36 @@
+@media screen and (min-width:320px){
+    body{
+        background-color: white;
+    }
+    .wrap{
+        width: 85%;
+        margin: 0 auto;
+    }
+    img{
+        width: 100%;
+    }
+
+    .spot h2, .spot_top1 h2, .spot_top2 h2, .spot_top3 h2{
+        color: silver;
+        font-size: 2.1vw;
+        font-weight: 700;
+        text-align: center;
+    }
+    .spot h3, .spot_top1 h4, .spot_top2 h4, .spot_top3 h4, .spot_top4 h4{
+        color: darkblue;
+        text-align: center;
+        margin-top: 1vh;
+        font-weight: 700;
+        font-size: 3.5vw;
+    }
+}
+@media screen and (min-width:768px){
+    body{
+        background-color: white;
+    }
+}
+@media screen and (min-width:1024px){
+    body{
+        background-color: white;
+    }
+}
