@@ -9,7 +9,7 @@
     }
     .benor{
         width: 100%;
-        height: 10vh;
+        height: 10rem;
         position: fixed;
         top: 0;
         left: 0;
@@ -85,26 +85,26 @@
         text-decoration: none;
     }
     .spot_top1, .spot_top2, .spot_top3, .spot_top4{
-        margin-top: 5vh;
-        border-top: 0.1vw solid blue;
+        margin-top: 4rem;
+        border-top: 1px solid blue;
     }
 
     .spot h2, .spot_top1 h2, .spot_top2 h2, .spot_top3 h2{
         color: silver;
-        font-size: 2.1vw;
+        font-size: 1rem;
         font-weight: 700;
         text-align: center;
     }
     .spot h3, .spot_top1 h4, .spot_top2 h4, .spot_top3 h4, .spot_top4 h4{
         color: darkblue;
         text-align: center;
-        margin-top: 1vh;
+        margin-top: 1rem;
         font-weight: 700;
-        font-size: 3.5vw;
+        font-size: 1rem;
     }
     .silverbox{
         background-color: rgb(228, 227, 227);
-        padding: 0.5vh 2.5vw;
+        padding: 0.5rem 1rem;
     }
     .silverbox dl{
         display: flex;
@@ -114,20 +114,20 @@
     .silverbox dt{
         display: inline-block;
         white-space: nowrap;
-        width: 20vw;
+        width: 8rem;
         font-weight: bolder;
     }
     .silverbox dd{
         display: inline-block;
-        width: 50vw;
+        width: 12rem;
     }
     #a1{
         margin-bottom: 1rem;
     }
     footer{
-        margin-top: 3vh;
-        margin-bottom: 3vh;
-        padding: 1vh;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 1rem;
         border-top: 1px solid silver;
         border-bottom: 1px solid silver;
     }
@@ -143,7 +143,7 @@
     }
     .benor{
         width: 100%;
-        height: 10vh;
+        height: 10rem;
         position: fixed;
         top: 0;
         left: 0;
@@ -213,32 +213,32 @@
     }
     .menu ul li a{
         display: inline-block;
-        padding: 0.05vh 0.05vw;
+        padding: 0.01rem 0.01rem;
         position: relative;
         background-color: white;
         text-decoration: none;
     }
     .spot_top1, .spot_top2, .spot_top3, .spot_top4{
-        margin-top: 5vh;
-        border-top: 0.1vw solid blue;
+        margin-top: 4rem;
+        border-top: 1px solid blue;
     }
 
     .spot h2, .spot_top1 h2, .spot_top2 h2, .spot_top3 h2{
         color: silver;
-        font-size: 2.1vw;
+        font-size: 1rem;
         font-weight: 700;
         text-align: center;
     }
     .spot h3, .spot_top1 h4, .spot_top2 h4, .spot_top3 h4, .spot_top4 h4{
         color: darkblue;
         text-align: center;
-        margin-top: 1vh;
+        margin-top: 1rem;
         font-weight: 700;
-        font-size: 3.5vw;
+        font-size: 2rem;
     }
     .silverbox{
         background-color: rgb(228, 227, 227);
-        padding: 0.5vh 2.5vw;
+        padding: 0.5rem 0.1rem;
     }
     .silverbox dl{
         display: flex;
@@ -253,15 +253,15 @@
     }
     .silverbox dd{
         display: inline-block;
-        width: 50vw;
+        width:50rem;
     }
     #a1{
         margin-bottom: 1rem;
     }
     footer{
-        margin-top: 3vh;
-        margin-bottom: 3vh;
-        padding: 1vh;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 1rem;
         border-top: 1px solid silver;
         border-bottom: 1px solid silver;
     }
@@ -277,7 +277,7 @@
     }
     .benor{
         width: 100%;
-        height: 10vh;
+        height: 10rem;
         position: fixed;
         top: 0;
         left: 0;
@@ -394,13 +394,13 @@
     .spot h3, .spot_top1 h4, .spot_top2 h4, .spot_top3 h4, .spot_top4 h4{
         color: darkblue;
         text-align: center;
-        margin-top: 1vh;
+        margin-top: 1rem;
         font-weight: 700;
         font-size: 2rem;
     }
     .silverbox{
         background-color: rgb(228, 227, 227);
-        padding: 0.5vh 2.5vw;
+        padding: 0.5rem 2rem;
     }
     .silverbox dl{
         display: flex;
@@ -415,18 +415,17 @@
     }
     .silverbox dd{
         display: inline-block;
-        width: 50vw;
+        width: 50rem;
     }
     #a1{
         margin-bottom: 1rem;
     }
     footer{
-        margin-top: 3vh;
-        margin-bottom: 3vh;
-        padding: 1vh;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 1rem;
         border-top: 1px solid silver;
         border-bottom: 1px solid silver;
-        padding-left: 10rem;
     }
     @keyframes scaleAnimation {
         from {
