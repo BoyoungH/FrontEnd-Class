@@ -36,11 +36,33 @@
         position: relative;
         top: 12rem;
     }
+    .hashtag{
+        position: relative;
+        top: 12rem;
+        border: 1px solid silver;
+        text-align: center;
+    }
+    .hashtag ul li{
+        display: inline-block;
+    }
+    .hashtag ul li a{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+    .hashtag p{
+        color: rgb(133, 125, 125);
+        font-weight: bolder;
+        font-size: 1rem;
+    }
+    .hashtag a{
+        color: silver;
+    }
     img{
         width: 100%;
     }
     .a{
-        padding-top: 30%;
+        padding-top: 10rem;
     }
     .menu{
         position: relative;
@@ -148,6 +170,28 @@
         position: relative;
         top: 12rem;
     }
+    .hashtag{
+        position: relative;
+        top: 12rem;
+        border: 1px solid silver;
+        text-align: center;
+    }
+    .hashtag ul li{
+        display: inline-block;
+    }
+    .hashtag ul li a{
+        display: inline-block;
+        text-decoration: none;
+    }
+    .hashtag p{
+        color: rgb(133, 125, 125);
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    .hashtag a{
+        color: silver;
+    }
+
     img{
         width: 100%;
     }
@@ -268,6 +312,28 @@
         border-top: 1px solid blue;
     }
 
+    .hashtag{
+        position: relative;
+        top: 16rem;
+        border: 1px solid silver;
+        text-align: center;
+    }
+    .hashtag ul li{
+        display: inline-block;
+    }
+    .hashtag ul li a{
+        display: inline-block;
+        text-decoration: none;
+    }
+    .hashtag p{
+        color: rgb(133, 125, 125);
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    .hashtag a{
+        color: silver;
+    }
+
     .a{
         display: flex;
         flex-direction: row;
@@ -276,6 +342,7 @@
         width: 100%;
         margin-top: 20rem;
     }
+
     
 
     .rooptop, .tree, .land, .tran{
