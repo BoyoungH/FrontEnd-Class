@@ -6,10 +6,48 @@
         width: 85%;
         margin: 0 auto;
     }
+    .benor{
+        width: 100%;
+        height: 10vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+    header{
+        width: 100%;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+    }
     img{
         width: 100%;
     }
+    .a{
+        padding-top: 30%;
+    }
+    .menu{
+        position: relative;
+        background-color: white;
+        padding: 0.05vh 0.05vw;
+        top: 9vh;
+    }
+    .menu ul li{
+        display: inline-block;
+        padding: 0.05vh 0.05vw;
+        position: relative;
+        background-color: white;
+    }
+    .menu ul li a{
+        display: inline-block;
+        padding: 0.05vh 0.05vw;
+        position: relative;
+        background-color: white;
+    }
     .spot_top1, .spot_top2, .spot_top3, .spot_top4{
+        margin-top: 5vh;
         border-top: 0.1vw solid blue;
     }
 
@@ -43,6 +81,13 @@
     .silverbox dd{
         display: inline-block;
         width: 50vw;
+    }
+    footer{
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        padding: 1vh;
+        border-top: 1px solid silver;
+        border-bottom: 1px solid silver;
     }
 }
 @media screen and (min-width:768px){

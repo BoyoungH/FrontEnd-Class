@@ -1,0 +1,342 @@
+@media all and (max-width:767px){
+    body{
+        background-color: white;
+        font-size: 16px;
+    }
+    .wrap{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .benor{
+        width: 100%;
+        height: 10vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+    header{
+        width: 100%;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        z-index: 10;
+    }
+    .spot{
+        text-align: center;
+        position: relative;
+        top: 12rem;
+    }
+    img{
+        width: 100%;
+    }
+    .a{
+        padding-top: 30%;
+    }
+    .menu{
+        position: relative;
+        background-color: white;
+        padding: 0.01rem 0.01rem;
+        top: 9vh;
+        border-bottom: 1px solid silver;
+    }
+    .menu ul li{
+        display: inline-block;
+        padding-right: 1rem;
+        position: relative;
+        background-color: white;
+    }
+    .menu ul li a{
+        display: inline-block;
+        padding: 0.01rem 0.01rem;
+        position: relative;
+        background-color: white;
+        text-decoration: none;
+    }
+    .spot_top1, .spot_top2, .spot_top3, .spot_top4{
+        margin-top: 5vh;
+        border-top: 0.1vw solid blue;
+    }
+
+    .spot h2, .spot_top1 h2, .spot_top2 h2, .spot_top3 h2{
+        color: silver;
+        font-size: 2.1vw;
+        font-weight: 700;
+        text-align: center;
+    }
+    .spot h3, .spot_top1 h4, .spot_top2 h4, .spot_top3 h4, .spot_top4 h4{
+        color: darkblue;
+        text-align: center;
+        margin-top: 1vh;
+        font-weight: 700;
+        font-size: 3.5vw;
+    }
+    .silverbox{
+        background-color: rgb(228, 227, 227);
+        padding: 0.5vh 2.5vw;
+    }
+    .silverbox dl{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .silverbox dt{
+        display: inline-block;
+        white-space: nowrap;
+        width: 20vw;
+        font-weight: bolder;
+    }
+    .silverbox dd{
+        display: inline-block;
+        width: 50vw;
+    }
+    #a1{
+        margin-bottom: 1rem;
+    }
+    footer{
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        padding: 1vh;
+        border-top: 1px solid silver;
+        border-bottom: 1px solid silver;
+    }
+}
+@media all and (min-width:768px) and (max-width:1023px){
+    body{
+        background-color: white;
+        font-size: 16px;
+    }
+    .wrap{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .benor{
+        width: 100%;
+        height: 10vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+    header{
+        width: 100%;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+    }
+    .spot{
+        text-align: center;
+        position: relative;
+        top: 12rem;
+    }
+    img{
+        width: 100%;
+    }
+    .a{
+        padding-top: 10rem;
+    }
+    .menu{
+        position: relative;
+        background-color: white;
+        padding: 0.01rem 0.01rem;
+        top: 9vh;
+        border-bottom: 1px solid silver;
+    }
+    .menu ul li{
+        display: inline-block;
+        padding-right: 2rem;
+        position: relative;
+        background-color: white;
+    }
+    .menu ul li a{
+        display: inline-block;
+        padding: 0.05vh 0.05vw;
+        position: relative;
+        background-color: white;
+        text-decoration: none;
+    }
+    .spot_top1, .spot_top2, .spot_top3, .spot_top4{
+        margin-top: 5vh;
+        border-top: 0.1vw solid blue;
+    }
+
+    .spot h2, .spot_top1 h2, .spot_top2 h2, .spot_top3 h2{
+        color: silver;
+        font-size: 2.1vw;
+        font-weight: 700;
+        text-align: center;
+    }
+    .spot h3, .spot_top1 h4, .spot_top2 h4, .spot_top3 h4, .spot_top4 h4{
+        color: darkblue;
+        text-align: center;
+        margin-top: 1vh;
+        font-weight: 700;
+        font-size: 3.5vw;
+    }
+    .silverbox{
+        background-color: rgb(228, 227, 227);
+        padding: 0.5vh 2.5vw;
+    }
+    .silverbox dl{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .silverbox dt{
+        display: inline-block;
+        white-space: nowrap;
+        width: 20vw;
+        font-weight: bolder;
+    }
+    .silverbox dd{
+        display: inline-block;
+        width: 50vw;
+    }
+    #a1{
+        margin-bottom: 1rem;
+    }
+    footer{
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        padding: 1vh;
+        border-top: 1px solid silver;
+        border-bottom: 1px solid silver;
+    }
+}
+@media all and (min-width:1024px){
+    body{
+        background-color: white;
+        font-size: 16px;
+    }
+    .wrap{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .benor{
+        width: 100%;
+        height: 10vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+    header{
+        width: 100%;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        z-index: 10;
+    }
+
+
+    img{
+        width: 100%;
+    }
+
+    .spot{
+        position: relative;
+        top: 15rem;
+        border-bottom: 1px solid blue;
+        border-top: 1px solid blue;
+    }
+
+    .a{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 20rem;
+    }
+    
+
+    .rooptop, .tree, .land, .tran{
+        display: inline-block;
+        border: 0.1rem solid silver;
+        padding: 1.5rem;
+    }
+    .rooptop, .tree{
+        width: 45%;
+    }
+    .land, .tran{
+        margin-top: 2rem;
+        width: 45%;
+    }
+    
+
+
+    .menu{
+        position: relative;
+        background-color: white;
+        padding: 0.11rem 0.1rem;
+        top: 9vh;
+        border-bottom: 1px solid silver;
+    }
+    .menu ul li{
+        display: inline-block;
+        padding-right: 2rem;
+        position: relative;
+        background-color: white;
+    }
+    .menu ul li a{
+        display: inline-block;
+        padding: 0.01rem 0.01rem;
+        position: relative;
+        background-color: white;
+        text-decoration: none;
+    }
+
+    .spot_top1, .spot_top2, .spot_top3, .spot_top4{
+        margin-top: 2rem;
+    }
+
+    .spot h2, .spot_top1 h2, .spot_top2 h2, .spot_top3 h2{
+        color: silver;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    .spot h3, .spot_top1 h4, .spot_top2 h4, .spot_top3 h4, .spot_top4 h4{
+        color: darkblue;
+        text-align: center;
+        margin-top: 1vh;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    .silverbox{
+        background-color: rgb(228, 227, 227);
+        padding: 0.5vh 2.5vw;
+    }
+    .silverbox dl{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .silverbox dt{
+        display: inline-block;
+        white-space: nowrap;
+        width: 20vw;
+        font-weight: bold;
+    }
+    .silverbox dd{
+        display: inline-block;
+        width: 50vw;
+    }
+    #a1{
+        margin-bottom: 1rem;
+    }
+    footer{
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        padding: 1vh;
+        border-top: 1px solid silver;
+        border-bottom: 1px solid silver;
+        padding-left: 10rem;
+    }
+}
