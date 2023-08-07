@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script defer src="js/day01.js"></script> -->
+    <script defer src="js/day01fn.js"></script>
+</head>
+<body>
+    <label for="kor">국어</label>
+    <input type="text" name="kor" id="kor"><br>
+
+    <label for="eng">영어</label>
+    <input type="text" name="eng" id="eng"><br>
+
+    <label for="math">수학</label>
+    <input type="text" name="math" id="math"><br>
+    <button type="button" id="btn">클릭하세요</button>
+
+    <!-- <div id="average">평균</div>
+    <div id="comp">성취도</div> -->
+
+    <ul id="result"></ul>
+
+    <div id="one"></div>
+
+    <input type="text" name="irum">
+    <button type="button" id="btn1">클릭</button>
+    <script>
+        document.getElementById("btn1").onclick=function(){
+            let name=document.getElementById('irum').value;
+            document.write("<p>" + name)
+        }
+    </script>
+
+</body>
+</html>
