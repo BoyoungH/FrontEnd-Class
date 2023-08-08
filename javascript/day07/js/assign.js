@@ -34,6 +34,16 @@
 // let [a1,,b1]=['a', 'b', 'c', 'd']
 // console.log(a1,b1);
 
-let arr=[];
-let arr2=new Array(3);
-console.log(Array.isArray(arr));
+// let arr=[];
+// let arr2=new Array(3);
+// console.log(Array.isArray(arr));
+
+// let len;
+// let arr=[];
+// len=arr.push("a1");
+
+// console.log(`len :${len}, arr:${arr}`);
+// console.log("-----------------");
+
+// len = arr.push('a2');
+// console.log(`len :${len}, arr:${arr}`);
