@@ -96,7 +96,7 @@
 //     // });
 
 //     let bb=irum.map(item=>`<li>${item}</li>`);
-//     console.log(bb);
+//     console.log(bb.join(''));
 //     document.getElementById('result').innerHTML=bb.join('');
 //     // document.getElementById('result').innerHTML=elements;
 // }

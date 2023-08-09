@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="js/homework.js"></script>
+    <style>
+        #up{
+            display: block;
+        }
+        select{
+            display: inline-block;
+        }
+        #bbttn{
+            display: inline-block;
+        }
+        #down{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 2rem;
+        }
+        #rightarrow, #leftarrow{
+            display: flex;
+            flex-direction: column;
+        }
+        select{
+            width: 6rem;
+            height: 9rem;
+            overflow-y: scroll;
+        }
+        #down{
+            width: 20rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="up">
+        <label>목록 추가</label>
+        <input type="text" name="newItem" id="newItem">
+        <button type="button" id="addItem">추가</button>
+    </div>
+    <div id="down">
+        <select id="leftSelect" multiple size="8"></select>
+
+        <div id="bbttn">
+            <button type="button" id="moveRight">=&gt;</button>
+            <button type="button" id="moveLeft">&lt;=</button>
+        </div>
+        <select id="rightSelect" multiple size="8"></select>
+    </div>
+</body>
+</html>
