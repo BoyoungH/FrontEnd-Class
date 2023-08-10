@@ -1,0 +1,30 @@
+/* .acodian{
+    width: 70rem;
+    height: 10rem;
+    background-color: skyblue;
+    border: none;
+    margin-left: 1rem;
+    text-align: left;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+p{
+    display: none;
+} */
+
+.acodian{
+    background-color: skyblue;
+    color: darkgray;
+    padding: 5vh 5vw;
+    width: 100%;
+    border: 1px solid silver;
+    cursor: pointer;
+}
+
+.panel{
+    padding: 0 2vw;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s;
+}
