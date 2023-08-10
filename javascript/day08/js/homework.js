@@ -1,17 +1,9 @@
-// document.getElementById('btn').addEventListener('click', function(){
-//     let data=document.getElementById('txt').value;
-//     let opt=document.createElement('option');
-//     let ele=document.createTextNode(data);
-//     opt.appendChild(ele);
-
-// });
-
-let addItemButton = document.getElementById('addItem');
-let newItemInput = document.getElementById('newItem');
-let leftSelect = document.getElementById('leftSelect');
-let rightSelect = document.getElementById('rightSelect');
-let moveRightButton = document.getElementById('moveRight');
-let moveLeftButton = document.getElementById('moveLeft');
+const addItemButton = document.getElementById('addItem');
+const newItemInput = document.getElementById('newItem');
+const leftSelect = document.getElementById('leftSelect');
+const rightSelect = document.getElementById('rightSelect');
+const moveRightButton = document.getElementById('moveRight');
+const moveLeftButton = document.getElementById('moveLeft');
 
 function addItem(){
     let newItemText = newItemInput.value;
@@ -20,6 +12,7 @@ function addItem(){
     leftSelect.appendChild(option);
     newItemInput.value = '';
 }
+
 addItemButton.addEventListener('click', addItem);
 
 newItemInput.addEventListener('keyup',item=>{
@@ -39,5 +32,20 @@ moveLeftButton.addEventListener('click', () => {
     let selectedOptions = Array.from(rightSelect.selectedOptions);
     selectedOptions.forEach(option => {
         leftSelect.appendChild(option);
+    });
+});
+
+
+leftSelect.addEventListener('dblclick', () => {
+    let selectedOptions = Array.from(leftSelect.selectedOptions);
+    selectedOptions.forEach(option => {
+        leftSelect.removeChild(option);
+    });
+});
+
+rightSelect.addEventListener('dblclick', () => {
+    let selectedOptions = Array.from(rightSelect.selectedOptions);
+    selectedOptions.forEach(option => {
+        rightSelect.removeChild(option);
     });
 });

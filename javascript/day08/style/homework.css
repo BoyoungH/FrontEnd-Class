@@ -1,0 +1,28 @@
+#up{
+    display: block;
+}
+select{
+    display: inline-block;
+}
+#bbttn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#moveRight, #moveLeft{
+    margin-bottom: 2rem;
+}
+#down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+select{
+    width: 6rem;
+    height: 11rem;
+    overflow-y: scroll;
+}
+#down{
+    width: 20rem;
+}
