@@ -1,10 +1,18 @@
-const toggleButton = document.getElementById('toggleButton');
-  const content = document.getElementById('content');
+"use strict"
 
-  toggleButton.addEventListener('click', () => {
-    if (content.style.display === 'none') {
-      content.style.display = 'block'; // 버튼을 클릭하면 내용이 보이도록 변경
-    } else {
-      content.style.display = 'none'; // 버튼을 다시 클릭하면 내용을 숨김
-    }
-  });
+
+// let acc=document.getElementsByClassName('tabItem');
+
+// for(let i=0; i< acc.length;i++){
+//     acc[i].addEventListener('click', function(){
+//         this.classList.toggle('active');
+//         const panel=this.nextElementSibling;
+//         // console.log(panel.style.maxHeight);
+//         if(panel.style.maxHeight){
+//             panel.style.maxHeight=0;
+//         }
+//         else{
+//             panel.style.maxHeight="10vh";
+//         }
+//     })
+// };

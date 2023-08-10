@@ -17,7 +17,7 @@ p{
     background-color: skyblue;
     color: darkgray;
     padding: 5vh 5vw;
-    width: 100%;
+    width: 70%;
     border: 1px solid silver;
     cursor: pointer;
 }
@@ -26,5 +26,12 @@ p{
     padding: 0 2vw;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s;
+    transition: max-height 0.2s ease-out;
+
+    /* 뭐가 더 있는데.. */
+}
+
+.active, .acodian:hover{
+    background-color: blue;
+    color: white;
 }
